@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {% if page.math %}
+  <script>window.MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']] } };</script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+  {% endif %}
+</head>
+<body>
+  <header>
+    <a class="home" href="{% if page.lang == 'ru' %}{{ '/ru/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{% if page.lang == 'ru' %}И. В. Байбулов{% else %}Ilnur Baibulov{% endif %}</a>
+    {% if page.alt %}<a class="lang" href="{{ page.alt | relative_url }}">{% if page.lang == 'ru' %}English{% else %}Русский{% endif %}</a>{% endif %}
+  </header>
+  <main>
+{{ content }}
+  </main>
+</body>
+</html>

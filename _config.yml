@@ -1,0 +1,6 @@
+title: Ilnur Baibulov
+markdown: kramdown
+kramdown:
+  math_engine: null
+exclude:
+  - README.md
