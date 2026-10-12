@@ -1,0 +1,90 @@
+---
+layout: default
+lang: ru
+math: true
+title: "ДЗ 6. Группы матриц"
+---
+{% raw %}
+<p class="muted"><a href="./">Линейная алгебра, ИТМО, осень 2026</a></p>
+<h1>ДЗ 6. Группы матриц</h1>
+<p>Во всех задачах <span class="math inline">\(\mathbb F\)</span>
+обозначает одно из полей <span class="math inline">\(\mathbb R\)</span>
+или <span class="math inline">\(\mathbb C\)</span>, <span
+class="math inline">\(\theta\)</span> — нулевую матрицу, <span
+class="math inline">\(E_n\)</span> — единичную матрицу порядка <span
+class="math inline">\(n\)</span>, <span
+class="math inline">\(e_1=\binom10\)</span>, <span
+class="math inline">\(e_2=\binom01\)</span>.</p>
+<p><strong>1.</strong> Для <span class="math inline">\(a\in\mathbb
+R\)</span> положим <span
+class="math inline">\(V(a)=\begin{pmatrix}1&amp;0\\a&amp;1\end{pmatrix}\)</span>.<br />
+1) Найдите <span class="math inline">\(V(a)V(b)\)</span> и <span
+class="math inline">\(V(a)^{-1}\)</span>.<br />
+2) Докажите, что <span class="math inline">\(V(a)^k=V(ka)\)</span> для
+любого <span class="math inline">\(k\in\mathbb Z\)</span>.<br />
+3) Докажите, что множество <span class="math inline">\(\{V(a)\mid
+a\in\mathbb R\}\)</span> является подгруппой <span
+class="math inline">\(\mathrm{GL}_2(\mathbb R)\)</span>.<br />
+4) Опишите отображение плоскости <span class="math inline">\(\binom
+xy\mapsto V(1)\binom xy\)</span>.</p>
+<p><strong>2.</strong> Для <span class="math inline">\(a,b\in\mathbb
+R\)</span> положим <span
+class="math inline">\(C(a,b)=\begin{pmatrix}a&amp;-b\\b&amp;a\end{pmatrix}\)</span>.<br />
+1) Вычислите <span class="math inline">\(C(1,1)^2\)</span>, <span
+class="math inline">\(C(1,1)^4\)</span>, <span
+class="math inline">\(C(1,1)^8\)</span> и сравните их с <span
+class="math inline">\((1+i)^2\)</span>, <span
+class="math inline">\((1+i)^4\)</span>, <span
+class="math inline">\((1+i)^8\)</span>.<br />
+2) Найдите все <span class="math inline">\(a,b\in\mathbb R\)</span>, для
+которых <span class="math inline">\(C(a,b)\neq E_2\)</span> и <span
+class="math inline">\(C(a,b)^3=E_2\)</span>.<br />
+3) Найдите все <span class="math inline">\(a,b\in\mathbb R\)</span>, для
+которых <span class="math inline">\(C(a,b)^2=-E_2\)</span>. Существует
+ли матрица <span class="math inline">\(X\in M_{2\times2}(\mathbb
+R)\)</span>, не имеющая вида <span
+class="math inline">\(C(a,b)\)</span>, для которой <span
+class="math inline">\(X^2=-E_2\)</span>?<br />
+4) Опишите отображения плоскости <span class="math inline">\(x\mapsto
+Ax\)</span> для <span class="math inline">\(A=C(1,1)\)</span> и для
+матриц <span class="math inline">\(C(a,b)\)</span>, найденных в пунктах
+2) и 3).</p>
+<p><strong>3.</strong> Обозначим <span
+class="math inline">\(O_2=\{A\in\mathrm{GL}_2(\mathbb R)\mid
+A^TA=E_2\}\)</span>. Вычислив <span class="math inline">\(A^TA\)</span>,
+выясните, принадлежат ли <span class="math inline">\(O_2\)</span>
+матрицы<br />
+<span
+class="math display">\[\begin{pmatrix}0&amp;1\\1&amp;0\end{pmatrix},\qquad\frac1{13}\begin{pmatrix}5&amp;-12\\12&amp;5\end{pmatrix},\qquad\begin{pmatrix}1&amp;1\\-1&amp;1\end{pmatrix}.\]</span><br />
+Опишите отображение плоскости <span class="math inline">\(x\mapsto
+Ax\)</span> для каждой из них.</p>
+<p><strong>4.</strong> Матрицей перестановки назовем квадратную матрицу,
+в каждой строке и каждом столбце которой ровно один элемент равен <span
+class="math inline">\(1\)</span>, а остальные равны <span
+class="math inline">\(0\)</span>.<br />
+1) Выпишите все матрицы перестановок порядка <span
+class="math inline">\(2\)</span> и порядка <span
+class="math inline">\(3\)</span>.<br />
+2) Докажите, что произведение двух матриц перестановок снова является
+матрицей перестановки.<br />
+3) Покажите, что для любой матрицы перестановки <span
+class="math inline">\(P\)</span> выполнено <span
+class="math inline">\(P^{-1}=P^T\)</span>.<br />
+4) Сделайте вывод, что матрицы перестановок порядка <span
+class="math inline">\(n\)</span> образуют подгруппу <span
+class="math inline">\(\mathrm{GL}_n(\mathbb R)\)</span>.</p>
+<p><strong>5.</strong> (по желанию) Для каждого из следующих подмножеств
+аддитивной группы <span class="math inline">\((M_{n\times n}(\mathbb
+F),+)\)</span> выясните, является ли оно подгруппой:<br />
+1) диагональные матрицы;<br />
+2) верхние треугольные матрицы;<br />
+3) симметричные матрицы <span
+class="math inline">\(A^T=A\)</span>;<br />
+4) антисимметричные матрицы <span
+class="math inline">\(A^T=-A\)</span>;<br />
+5) матрицы, у которых <span
+class="math inline">\(a_{11}=1\)</span>;<br />
+6) матрицы, у которых сумма всех элементов равна нулю.<br />
+В положительных случаях проведите полную проверку, а в отрицательных
+укажите нарушенное свойство.</p>
+{% endraw %}

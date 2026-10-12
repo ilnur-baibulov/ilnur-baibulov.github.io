@@ -1,0 +1,73 @@
+---
+layout: default
+lang: ru
+math: true
+title: "ДЗ 5. Матрицы"
+---
+{% raw %}
+<p class="muted"><a href="./">Линейная алгебра, ИТМО, осень 2026</a></p>
+<h1>ДЗ 5. Матрицы</h1>
+<p>Во всех задачах <span class="math inline">\(\mathbb F\)</span>
+обозначает одно из полей <span class="math inline">\(\mathbb R\)</span>
+или <span class="math inline">\(\mathbb C\)</span>, <span
+class="math inline">\(\theta\)</span> — нулевую матрицу, <span
+class="math inline">\(E_n\)</span> — единичную матрицу порядка <span
+class="math inline">\(n\)</span>, <span
+class="math inline">\(e_1=\binom10\)</span>, <span
+class="math inline">\(e_2=\binom01\)</span>.</p>
+<p><strong>1.</strong> Матрица <span class="math inline">\(A\in
+M_{2\times2}(\mathbb R)\)</span> задаёт отображение плоскости <span
+class="math inline">\(\mathbb R^2\to\mathbb R^2\)</span>, <span
+class="math inline">\(x\mapsto Ax\)</span>. Его значения на <span
+class="math inline">\(e_1\)</span> и <span
+class="math inline">\(e_2\)</span> — столбцы <span
+class="math inline">\(A\)</span>.<br />
+1) Не производя вычислений, выпишите матрицы из <span
+class="math inline">\(M_{2\times2}(\mathbb R)\)</span>, задающие
+ортогональную проекцию на ось <span class="math inline">\(Ox\)</span>,
+поворот на угол <span class="math inline">\(\pi\)</span> вокруг начала
+координат и отражение относительно прямой <span
+class="math inline">\(y=x\)</span>.<br />
+2) Найдите матрицу <span class="math inline">\(X\in M_{2\times2}(\mathbb
+R)\)</span>, <span class="math inline">\(X\neq\pm E_2\)</span>, для
+которой <span class="math inline">\(X^2=E_2\)</span>. Какое отображение
+плоскости она задаёт?<br />
+3) Найдите матрицу <span class="math inline">\(X\in M_{2\times2}(\mathbb
+R)\)</span>, отличную от <span class="math inline">\(\theta\)</span> и
+от <span
+class="math inline">\(\begin{pmatrix}0&amp;1\\0&amp;0\end{pmatrix}\)</span>,
+для которой <span class="math inline">\(X^2=\theta\)</span>. Найдите
+образ плоскости при отображении <span class="math inline">\(x\mapsto
+Xx\)</span> и образ этого образа.</p>
+<p><strong>2.</strong> Найдите обратные матрицы к<br />
+<span
+class="math display">\[A_1=\begin{pmatrix}3&amp;1\\2&amp;1\end{pmatrix},\qquad
+A_2=\begin{pmatrix}1&amp;0\\3&amp;1\end{pmatrix}\in M_{2\times2}(\mathbb
+R),\]</span><br />
+непосредственно решая равенства <span
+class="math inline">\(A_iX=XA_i=E_2\)</span>. Покажите тем же способом,
+что матрица <span
+class="math inline">\(A_3=\begin{pmatrix}1&amp;2\\2&amp;4\end{pmatrix}\)</span>
+не имеет обратной, и найдите образ плоскости при отображении <span
+class="math inline">\(x\mapsto A_3x\)</span>.</p>
+<p><strong>3.</strong> Решите в <span
+class="math inline">\(M_{2\times2}(\mathbb R)\)</span> матричные
+уравнения<br />
+1) <span
+class="math inline">\(\begin{pmatrix}3&amp;1\\2&amp;1\end{pmatrix}X=\begin{pmatrix}1&amp;0\\0&amp;2\end{pmatrix}\)</span>;<br />
+2) <span
+class="math inline">\(X\begin{pmatrix}1&amp;0\\3&amp;1\end{pmatrix}=\begin{pmatrix}1&amp;2\\0&amp;1\end{pmatrix}\)</span>.</p>
+<p><strong>4.</strong> Обозначим через <span
+class="math inline">\(S_n(\mathbb F)\)</span> множество симметричных, а
+через <span class="math inline">\(K_n(\mathbb F)\)</span> множество
+антисимметричных матриц.<br />
+1) Покажите, что любую матрицу <span class="math inline">\(A\in
+M_{n\times n}(\mathbb F)\)</span> можно представить в виде<br />
+<span class="math display">\[A=A_1+A_2,\]</span><br />
+где первое слагаемое принадлежит <span class="math inline">\(S_n(\mathbb
+F)\)</span>, а второе — <span class="math inline">\(K_n(\mathbb
+F)\)</span>.<br />
+2) Докажите единственность такого представления.<br />
+3) Найдите пересечение <span class="math inline">\(S_n(\mathbb F)\cap
+K_n(\mathbb F)\)</span>.</p>
+{% endraw %}

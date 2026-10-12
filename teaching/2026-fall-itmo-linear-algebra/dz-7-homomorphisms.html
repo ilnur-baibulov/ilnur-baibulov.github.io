@@ -1,0 +1,101 @@
+---
+layout: default
+lang: ru
+math: true
+title: "ДЗ 7. Гомоморфизмы"
+---
+{% raw %}
+<p class="muted"><a href="./">Линейная алгебра, ИТМО, осень 2026</a></p>
+<h1>ДЗ 7. Гомоморфизмы</h1>
+<p>Обозначим <span class="math inline">\(\mathbb C^*=\mathbb
+C\setminus\{0\}\)</span>, <span class="math inline">\(\mathbb
+R^*=\mathbb R\setminus\{0\}\)</span>, <span
+class="math inline">\(U=\{z\in\mathbb C\mid\lvert z\rvert=1\}\)</span>.
+Для каждого гомоморфизма найдите ядро и образ, проверьте инъективность и
+сюръективность и определите его тип: эндоморфизм, автоморфизм, вложение
+или изоморфизм.</p>
+<p><strong>1.</strong> Выясните, являются ли следующие отображения
+гомоморфизмами указанных групп. Для гомоморфизмов опишите отображение
+геометрически.<br />
+1) <span class="math inline">\(f\colon(\mathbb R,+)\to(\mathbb
+R,+)\)</span>, <span class="math inline">\(f(x)=-2x\)</span>;<br />
+2) <span class="math inline">\(f\colon(\mathbb C,+)\to(\mathbb
+C,+)\)</span>, <span class="math inline">\(f(z)=iz\)</span>;<br />
+3) <span class="math inline">\(f\colon(\mathbb C^*,\cdot)\to(\mathbb
+C^*,\cdot)\)</span>, <span class="math inline">\(f(z)=iz\)</span>;<br />
+4) <span class="math inline">\(f\colon(\mathbb
+C^*,\cdot)\to(U,\cdot)\)</span>, <span
+class="math inline">\(f(z)=z/\lvert z\rvert\)</span>.</p>
+<p><strong>2.</strong> Для отображения<br />
+<span class="math display">\[\varphi\colon(\mathbb C^*,\cdot)\to(\mathbb
+C^*,\cdot),\qquad\varphi(z)=z^2,\]</span><br />
+выполните следующее:<br />
+1) докажите, что <span class="math inline">\(\varphi\)</span> является
+гомоморфизмом;<br />
+2) найдите <span class="math inline">\(\ker\varphi\)</span>;<br />
+3) докажите сюръективность, используя извлечение квадратного корня из
+комплексного числа;<br />
+4) определите тип гомоморфизма.</p>
+<p><strong>3.</strong><br />
+1) Найдите все гомоморфизмы <span class="math inline">\((\mathbb
+Z_3,+)\to(\{1,2,4\},\cdot_7)\)</span>, где <span
+class="math inline">\(\cdot_7\)</span> — умножение по модулю <span
+class="math inline">\(7\)</span>. Какие из них являются
+изоморфизмами?<br />
+2) Найдите все гомоморфизмы <span class="math inline">\((\mathbb
+Z_4,+)\to(\mathbb Z_6,+)\)</span> и их ядра.<br />
+3) Изоморфны ли группа <span class="math inline">\((\mathbb
+Z_6,+)\)</span> и группа <span
+class="math inline">\(\mathrm{Sym}(\triangle)\)</span> симметрий
+правильного треугольника?<br />
+4) Докажите, что группа <span class="math inline">\((\mathbb
+Z_6,+)\)</span> изоморфна группе <span
+class="math inline">\(\{z\in\mathbb C\mid z^6=1\}\)</span> по умножению,
+и найдите число изоморфизмов между ними.</p>
+<p><strong>4.</strong> Обозначим через <span
+class="math inline">\(\mathrm{Sym}(\square)\)</span> группу симметрий
+квадрата с центром в начале координат и сторонами, параллельными осям.
+Пусть <span class="math inline">\(r\)</span> — поворот на <span
+class="math inline">\(\pi/2\)</span> вокруг центра, <span
+class="math inline">\(s\)</span> — отражение относительно оси <span
+class="math inline">\(Oy\)</span>. Сопоставим симметрии <span
+class="math inline">\(g\)</span> матрицу <span
+class="math inline">\(M(g)\in M_{2\times2}(\mathbb R)\)</span>, для
+которой <span class="math inline">\(g(x)=M(g)x\)</span>. В
+частности,<br />
+<span
+class="math display">\[M(r)=\begin{pmatrix}0&amp;-1\\1&amp;0\end{pmatrix},\qquad
+M(s)=\begin{pmatrix}-1&amp;0\\0&amp;1\end{pmatrix}.\]</span><br />
+1) Выпишите матрицы всех восьми симметрий <span
+class="math inline">\(r^ks^j\)</span>, <span
+class="math inline">\(k=0,1,2,3\)</span>, <span
+class="math inline">\(j=0,1\)</span>.<br />
+2) Проверьте равенство <span class="math inline">\(sr=r^3s\)</span>,
+перемножив матрицы.<br />
+3) Сколько ненулевых элементов в каждой строке и каждом столбце этих
+матриц и чему они равны?<br />
+4) Найдите подгруппу <span
+class="math inline">\(\mathrm{Sym}(\square)\)</span>, изоморфную <span
+class="math inline">\((\mathbb Z_4,+)\)</span>, и подгруппу, изоморфную
+группе симметрий ромба, не являющегося квадратом.<br />
+5) Найдите ядро гомоморфизма <span
+class="math inline">\(\mathrm{Sym}(\square)\to(\{\pm1\},\cdot)\)</span>,
+сопоставляющего повороту <span class="math inline">\(1\)</span>, а
+отражению <span class="math inline">\(-1\)</span>.</p>
+<p><strong>5.</strong> Пусть <span class="math inline">\(A\)</span> —
+группа. Рассмотрим отображения<br />
+<span class="math display">\[\delta\colon A\to A\times
+A,\qquad\delta(a)=(a,a),\]</span><br />
+и<br />
+<span class="math display">\[\mu\colon A\times A\to
+A,\qquad\mu(a,b)=ab.\]</span><br />
+1) Докажите, что <span class="math inline">\(\delta\)</span> всегда
+является гомоморфизмом. Найдите его ядро и образ и определите тип этого
+гомоморфизма.<br />
+2) Докажите, что <span class="math inline">\(\mu\)</span> является
+гомоморфизмом тогда и только тогда, когда группа <span
+class="math inline">\(A\)</span> коммутативна.<br />
+3) Если <span class="math inline">\(A\)</span> коммутативна, найдите
+ядро и образ <span class="math inline">\(\mu\)</span> и определите тип
+этого гомоморфизма.</p>
+{% endraw %}
