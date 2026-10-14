@@ -10,7 +10,7 @@ math: true
     <h1>Ilnur Baibulov</h1>
     <p>Research engineer, Chebyshev Laboratory,<br>Saint Petersburg State University</p>
     <p class="muted">Email: <a href="mailto:i.v.baibulov@gmail.com">i.v.baibulov@gmail.com</a></p>
-    <p>CV: <a href="cv/cv_eng.pdf">English (PDF)</a> · <a href="cv/cv_rus.pdf">Russian (PDF)</a></p>
+    <p>CV: <a href="cv/cv_eng.pdf" data-goatcounter-click="cv-eng-pdf">English (PDF)</a> · <a href="cv/cv_rus.pdf" data-goatcounter-click="cv-rus-pdf">Russian (PDF)</a></p>
   </div>
   <img src="assets/photo.jpg" alt="Ilnur Baibulov">
 </div>
@@ -32,4 +32,4 @@ Operator algebras, mathematical physics.
   <li>(with O. V. Sarafanov) The spectrum of the $C^*$-algebra of singular integral operators with semi-almost periodic coefficients, <em>Sbornik: Mathematics</em> 215:4 (2024), 464–493. <a href="https://doi.org/10.4213/sm9999e">doi</a></li>
 </ul>
 
-The full list is in the [CV](cv/cv_eng.pdf).
+The full list is in the [CV](cv/cv_eng.pdf){: data-goatcounter-click="cv-eng-pdf"}.

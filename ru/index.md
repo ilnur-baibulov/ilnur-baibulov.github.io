@@ -11,7 +11,7 @@ title: Байбулов И. В.
     <h1>Байбулов Ильнур Вильевич</h1>
     <p>Инженер-исследователь, лаборатория им. П. Л. Чебышёва,<br>Санкт-Петербургский государственный университет</p>
     <p class="muted">Email: <a href="mailto:i.v.baibulov@gmail.com">i.v.baibulov@gmail.com</a></p>
-    <p>CV: <a href="../cv/cv_rus.pdf">на русском (PDF)</a> · <a href="../cv/cv_eng.pdf">на английском (PDF)</a></p>
+    <p>CV: <a href="../cv/cv_rus.pdf" data-goatcounter-click="cv-rus-pdf">на русском (PDF)</a> · <a href="../cv/cv_eng.pdf" data-goatcounter-click="cv-eng-pdf">на английском (PDF)</a></p>
   </div>
   <img src="../assets/photo.jpg" alt="И. В. Байбулов">
 </div>
@@ -33,4 +33,4 @@ title: Байбулов И. В.
   <li>(совм. с О. В. Сарафановым) Спектр $C^*$-алгебры сингулярных интегральных операторов с полу-почти-периодическими коэффициентами, <em>Математический сборник</em> 215:4 (2024), 30–61. <a href="https://doi.org/10.4213/sm9999">doi</a></li>
 </ul>
 
-Полный список — в [CV](../cv/cv_rus.pdf).
+Полный список — в [CV](../cv/cv_rus.pdf){: data-goatcounter-click="cv-rus-pdf"}.
